@@ -15,4 +15,6 @@ The program will then either return the credit card issuer if the credit card nu
 - Incorporate other major credit card issuers like DISCOVER.
 - Incorporate any additional standards that AMEX, MASTERCARD, and VISA have.
 - Add functionality that allows user to input numbers with hyphens or spaces. The program will parse the given input, remove then spaces or additional characters and return an integer value that corresponds to the credit card number before continuing with the test. 
+- Instead of instantiating new variable `string_num` within `get_checksum()`, add `num_str` as another argument to reduce space.
+
 
